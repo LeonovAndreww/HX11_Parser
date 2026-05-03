@@ -71,7 +71,6 @@ def preprocess(sentence):
         sentence = sentence.replace(str(i), "")
     sentence = sentence.lower().replace(".", "").replace(",","")
     words = nltk.word_tokenize(sentence)
-    print(words)
     return words
 
 
